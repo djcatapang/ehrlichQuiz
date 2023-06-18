@@ -42,6 +42,14 @@ header {
   background: #F2F2F2;
 }
 
+.font-red {
+  color: #C1272D;
+}
+
+.strikethrough {
+  text-decoration: line-through;
+}
+
 .font-bold-600 {
   font-weight: 600;
 }
@@ -64,6 +72,14 @@ header {
 
 .font-white {
   color: #ffffff;
+}
+
+.font-black {
+  color: #000000;
+}
+
+.font-black a {
+  color: #000000;
 }
 
 h2 {
@@ -90,6 +106,25 @@ h2 {
   letter-spacing: 0em;
   text-align: center;
   text-transform: uppercase;
+}
+
+.button-regular-black {
+  padding: 10px 20px;
+  background: #ffffff;
+  color: #000000;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.button-small-white {
+  background: #FFFFFF;
+  border: 1px solid #000000;
+  border-radius: 50px;
+  padding: 10px 20px;
 }
 
 article {
@@ -160,9 +195,52 @@ article .article-main .article-content p {
   max-height: 100%;
 }
 
+#now-trending .container {
+  max-width: 1054px;
+  width: 100%;
+}
+#now-trending .container img {
+  height: 300px;
+  width: 225px;
+}
+#now-trending .container .font-bold-600 p {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29px;
+  text-transform: uppercase;
+}
+#now-trending .container a {
+  text-decoration: none;
+}
+
+@media screen and (min-width: 992px) {
+  #now-trending .button-small-white {
+    width: 147px !important;
+  }
+}
+#new-arrivals {
+  height: 400px;
+  background: linear-gradient(90deg, rgba(255, 203, 124, 0) 0%, #FFCB7C 100%);
+  mix-blend-mode: multiply;
+}
+
 #inspo-section img {
   height: 225px !important;
   width: 225px !important;
+}
+
+#recently-bought .custom-card {
+  width: 225px;
+  height: 390px;
+  position: relative;
+}
+#recently-bought .custom-card img {
+  height: 300px;
+  width: auto;
+}
+#recently-bought .custom-card .price {
+  position: absolute;
+  bottom: 0;
 }
 
 .swiper {

@@ -1,0 +1,15 @@
+#recently-bought {
+    .custom-card {
+        width: 225px;
+        height: 390px;
+        position: relative;
+        img {
+            height: 300px;
+            width: auto;
+        }
+        .price {
+            position: absolute;
+            bottom: 0;
+        }
+    }
+}

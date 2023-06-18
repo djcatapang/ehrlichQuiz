@@ -4,3 +4,18 @@
   color: #ffffff;
   @include button-size-regular();
 }
+
+.button-regular-black {
+  padding: 10px 20px;
+  background: #ffffff;
+  color: #000000;
+  font-weight: 600;
+  @include button-size-regular();
+}
+
+.button-small-white {
+  background: #FFFFFF;
+  border: 1px solid #000000;
+  border-radius: 50px;
+  padding: 10px 20px;
+}

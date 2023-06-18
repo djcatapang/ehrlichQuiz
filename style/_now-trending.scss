@@ -1,0 +1,27 @@
+#now-trending {
+    .container {
+        max-width: 1054px;
+        width: 100%;
+        img {
+            height: 300px;
+            width: 225px;
+        }
+        .font-bold-600 p {
+            font-size: 24px;
+            font-weight: 600;
+            line-height: 29px;
+            text-transform: uppercase;
+        }
+        a {
+            text-decoration: none;
+        }
+    } 
+}
+
+@media screen and (min-width: 992px) {
+    #now-trending {
+        .button-small-white {
+            width: 147px !important;
+        }
+    }
+  }
