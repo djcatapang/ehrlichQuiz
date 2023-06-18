@@ -2,4 +2,7 @@
     height: 400px;
     background: linear-gradient(90deg, rgba(255, 203, 124, 0) 0%, #FFCB7C 100%);
     mix-blend-mode: multiply;
+    .bg-arrivals {
+        background-image: url('/images/new-arrivals-banner.png');
+    }
 }

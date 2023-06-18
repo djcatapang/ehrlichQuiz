@@ -4,14 +4,23 @@
     font-family: 'Montserrat', sans-serif;
   }
 
+
+$font-bold-600: 600;
+$font-bold-800: 800;
+$font-size-16: 16px;
+$font-size-18: 18px;
+$font-size-32: 32px;
+
+
 @import 'mixins';
 @import 'header';
 @import 'common-styles';
 @import 'buttons';
 @import 'main'; 
 @import 'article';
-@import 'textSlider';
-@import 'end-section';
+@import 'banner';
+@import 'site-wide-deals';
+@import 'black-friday-section';
 @import 'now-trending';
 @import 'new-arrivals';
 @import 'inspo-section';

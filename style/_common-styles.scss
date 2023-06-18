@@ -2,6 +2,7 @@
     height: 50px;
 }
 
+
 .bg-gray {
     background: #F2F2F2;
 }
@@ -12,6 +13,10 @@
 
 .strikethrough {
     text-decoration: line-through;
+}
+
+.font-weight-400 {
+    font-weight: 400;
 }
 
 .font-bold-600 {
@@ -26,12 +31,21 @@
     font-size: 16px !important;
 }
 
+.font-size-18 {
+    font-size: 18px !important;
+}
+
 .font-size-32 {
     font-size: 32px !important;
 }
 
+
 .bg-black {
-    background-color: #000000;
+    background-color: #000000 !important;
+}
+
+.bg-black-gradient {
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0) 13.54%, #000000 40.1%, #000000 100%);
 }
 
 .font-white {
@@ -60,3 +74,8 @@ h2 {
     line-height: 17px;
     letter-spacing: 0em;
 }
+.swiper-wrapper {
+    width: 100vw;
+    display: flex !important;
+    transition-property: transform !important;
+  }
