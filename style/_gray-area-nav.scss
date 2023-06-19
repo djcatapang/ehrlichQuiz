@@ -1,0 +1,15 @@
+#gray-area-nav {
+    p {
+        margin-bottom: 0;
+        font-size: 12px;
+        line-height: 15px;
+    }
+    @media screen and (max-width: 425px) {
+        .mobile-fix {
+            display: flex;
+            flex-direction: column !important;
+            gap: 10px;
+        }
+    }
+    
+}

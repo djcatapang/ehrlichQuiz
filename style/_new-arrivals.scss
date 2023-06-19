@@ -1,8 +1,37 @@
 #new-arrivals {
+    h2 {
+        font-weight: 800;
+        font-size: 86px;
+        line-height: 86px;
+    }
+    p {
+        margin-bottom: 0;
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 34px;
+    }
+    .custom-height {
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+.bg-arrivals {
+    background-image: url('/images/new-arrivals-banner.png');
     height: 400px;
-    background: linear-gradient(90deg, rgba(255, 203, 124, 0) 0%, #FFCB7C 100%);
-    mix-blend-mode: multiply;
-    .bg-arrivals {
-        background-image: url('/images/new-arrivals-banner.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+@media screen and (max-width: 768px) {
+    #new-arrivals h2 {
+        font-size: 60px;
+    }
+    #new-arrivals p {
+        font-size: 20px;
     }
 }

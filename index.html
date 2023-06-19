@@ -15,16 +15,110 @@
 </head>
 <body>
   
+    <header>
+      <nav id="nav-area">
+        <div class="container">
+          <div class="row pt-4 pb-3 mobile-flex">
+            <div class="col-lg-4">
+              <ul class="d-flex justify-content-between font-black">
+                <li><a href="#" class="is-active">Women</a></li>
+                <li><a href="#">Plus</a></li>
+                <li><a href="#">Men</a></li>
+                <li><a href="#">Accessories</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-4 text-center second-div">
+              <img src="images/Threaded.PNG" alt="Threaded">
+            </div>
+            <div class="col-lg-4">
+              <ul class="d-flex justify-content-between">
+                <li><a href="#"><img src="images/people.png" alt="people"></a></li>
+                <li><a href="#"><img src="images/bag.png" alt="bag"></a></li>
+                <li><a href="#"><img src="images/heart.png" alt="heart"></a></li>
+                <li><a href="#"><img src="images/earphones.png" alt="earphones"></a></li>
+                <li><a href="#"><img src="images/magnifying glass.png" alt="search"></a></li>
+                <li><div class="dropdown">
+                  <button class="btn btn-primary dropdown-toggle" type="button" id="currencyDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                    <img src="images/US-flag.png" alt="US"> USD$
+                  </button>
+                  <ul class="dropdown-menu" aria-labelledby="currencyDropdown">
+                    <li>
+                      <a class="dropdown-item" href="#">
+                        <img src="images/Euro Flag.png" alt="Euro"> Euro€
+                      </a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">
+                        <img src="images/PH flag.png" alt="Ph"> Peso₱
+                      </a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">
+                        <img src="images/Brazil Flag.png" alt="Brazil"> RealR$
+                      </a>
+                    </li>
+                  </ul>
+                </div></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
 
     <main>
+      <!-- Gray area nav -->
+      <section id="gray-area-nav" class="bg-gray">
+        <div class="container">
+          <div class="d-flex flex-wrap justify-content-between p-3 mobile-fix">
+            <div class="d-flex align-items-center gap-3">
+             <img src="images/crown.PNG" alt="crown">
+             <p>Exclusive Deals for VIP 2 and up!</p>
+            </div>
+            <div class="d-flex align-items-center gap-3">
+              <img src="images/star.PNG" alt="star">
+              <p>Weekly New Arrivals</p>
+            </div>
+            <div class="d-flex align-items-center gap-3">
+              <img src="images/truck.PNG" alt="truck">
+              <p>Free Shipping on Orders Over $100</p>
+            </div>
+            <div class="d-flex align-items-center gap-3">
+              <img src="images/location.PNG" alt="location">
+              <p>Track Your Order</p>
+            </div>
+            <div class="d-flex align-items-center gap-3">
+              <img src="images/discount.PNG" alt="discount">
+              <p>10% Off On Your First Order!</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <!-- Banner Sections -->
       <section id="banner">
         <div class="swiper mySwiper">
           <div class="swiper-wrapper">
-            <div class="swiper-slide"><img src="images/banner.png" alt="banner"></div>
-            <div class="swiper-slide"><img src="images/banner.png" alt="banner"></div>
-            <div class="swiper-slide"><img src="images/banner.png" alt="banner"></div>
-            <div class="swiper-slide"><img src="images/banner.png" alt="banner"></div>>
+            <div class="swiper-slide"><img src="images/banner.png" alt="banner">
+            <button class="button-big-white">
+              SHOP NOW
+            </button>
+            </div>
+            <div class="swiper-slide"><img src="images/banner.png" alt="banner">
+              <button class="button-big-white">
+                SHOP NOW
+              </button>
+            </div>
+            <div class="swiper-slide"><img src="images/banner.png" alt="banner">
+              <button class="button-big-white">
+                SHOP NOW
+              </button>
+            </div>
+            <div class="swiper-slide"><img src="images/banner.png" alt="banner">
+              <button class="button-big-white">
+                SHOP NOW
+              </button>
+            </div>
           </div>
           <div class="swiper-button-next"></div>
           <div class="swiper-button-prev"></div>
@@ -177,8 +271,18 @@
       <!-- New Arrivals Section -->
       <section id="new-arrivals" class="bg-arrivals">
         <div class="container">
-        
-        </div>
+            <div class="row">
+              <div class="col-xl-7">
+              </div>
+              <div class="col-xl-5 custom-height font-white">
+                  <h2>NEW ARRIVALS</h2>
+                  <p>Get ready for the holidays with us!</p>
+                  <button class="button-regular-black-arrivals">
+                    shop now
+                  </button>
+              </div>
+            </div>
+          </div>
       </section> 
 
       <!-- Recently Bought Section -->
@@ -340,7 +444,6 @@
         </div>
       </div>
     </footer>
-
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
