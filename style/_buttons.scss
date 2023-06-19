@@ -55,6 +55,19 @@ button#currencyDropdown {
   bottom: 5px;
 }
 
+input.form-control {
+  border-radius: 0;
+}
+
+button.btn.btn-outline-secondary {
+  border-radius: 0;
+  background: #ffffff;
+}
+
+button.btn.btn-outline-secondary:hover {
+  color: #000000;
+}
+
 
 @media screen and (max-width: 1024px) {
   .button-big-white {
